@@ -1,0 +1,62 @@
+Practical Bug Bounty
+
+
+
+http method |
+
+
+each req are state less that's why we use cookie to stateful 
+
+record types dns
+A record maps ipv4
+mxrecord - mail server for a domain
+cname record creates an alias for a domain name
+caching
+
+
+Reconnaissance and Information Gathering
+
+security header.com
+ssllabs.com
+
+
+2) Directory Enumeration and Brute Forcing
+
+ffuf
+dirb
+dirbuster&
+
+3)   Subdomain Enumeration
+
+google dorking
+crt.sh
+subfinder 
+assetfinder by = all tied to an entity, any entity that is owned like a sister company will be enumerated  , if you want to use this and see only our scope use grep like $ assetfinder azena.com | grep eg.com | sort -u (unique) > eg.txt
+amass Enum -d  best but take time
+
+To sort all the output
+cat eg | sort -u > eg2.txt
+cat eg2.txt >> (append) eg3.txt
+now with all our output at eg3 sort unique to the final file
+cat eg3.txt | sort -u > final.txt
+
+
+To check what website are actually alive 
+
+* httpprobe
+cat final.txt | grep eg.com | sort -u | httprobe -prefer=https | grep https > alive.txt
+
+* gowitness 
+gowitness file -f final.txt -P dirname --no-http = will be getting the snip output 
+
+note : rearch your own comfy tools like wayback etc and create a playbook
+
+4)
+* Target,intruder, repeater in burp 
+* Understanding the businesss logic in a site by overviewing whats the site in doin
+
+
+
+
+
+
