@@ -1,0 +1,13 @@
+CrowdStrike has had its NPM packages compromised My big 'HACKED' stamp is back.
+
+Crowdstrike has been caught in a Supply chain attack that so far includes 180 packages from various organizations.
+
+Crowdstrike packages compromised include @crowdstrike/commitlint @crowdstrike/falcon-shoelace @crowdstrike/foundry-js @crowdstrike/glide-core @crowdstrike/logscale-dashboard @crowdstrike/logscale-file-editor @crowdstrike/logscale-parser-edit @crowdstrike/logscale-search @crowdstrike/tailwind-toucan-base
+
+This appears to be a continuation of the Tinycolor attack first discovered by Daniel Pereira that Socket and StepSecurity had reported on. Both discovered that a combined 40 packages were compromised. Since then, an additional 140 packages have been compromised, including those from Crowdstrike. This is ongoing, so expect more compromises to
+
+follow.
+
+What the malware does
+
+The malware steals credentials using webhook[.]site, this is especially bad because they are using a free-tier webhook[.]site account, which means all credentials stolen will be public; HOWEVER... it appears they are currently rate-limited, so new exfiltrations of credentials aren't working. This feels like a Zombie attack, as even though the exfiltration method isn't working, new attacks are ongoing, making it feel very automated...
