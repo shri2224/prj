@@ -1,0 +1,24 @@
+Hi Team during the recent VAPT engagement, a significant Email Spoofing vulnerability was identified due to the absence of a Sender Policy Framework (SPF) record for the list of subdomain [subdomain]. This issue exposes the organization to potential phishing attacks, email impersonation, and reputation damage.
+
+Details of the Finding:
+Issue: No SPF record configured for the subdomain [subdomain]. SPF records are used to specify which mail servers are allowed to send email on behalf of the domain. Without it, unauthorized servers can send emails pretending to be from your domain.
+Severity: High (P1)
+Impact:E
+mail Spoofing: Attackers can impersonate the organization’s domain, sending fraudulent emails that appear to come from trusted sources.
+
+Phishing Attacks: Email spoofing enables phishing attempts, increasing the risk of social engineering attacks on your employees or clients.
+
+Reputation Damage: The absence of an SPF record can damage your organization's reputation, as recipients may identify your emails as untrustworthy.
+
+How the subdomain gets spoofed:
+Because the subdomain does not have an SPF record, there is nothing in DNS to tell receiving mail servers which systems are allowed to send emails for it. An attacker can configure their own mail server (or use any email-sending tool) and set the “From:” address to user@subdomain.example.com. Since no SPF (and usually no DKIM/DMARC) exists for that subdomain, the receiving mail server cannot verify if the message is legitimate.
+
+As a result, the spoofed email is accepted from {subdomain} via attacker mail server as it shows and came from the organization.
+
+Recommendation:
+It is recommended to configure and enforce SPF records for all domains and subdomains that are exposed to the internet.
+
+
+Here’s a short executive summary version you can use for leadership/non-technical stakeholders:
+
+Because the subdomain has no SPF protection, attackers can easily send emails that appear to come from our domain. This allows spoofed emails to bypass checks and reach recipients, creating a risk of phishing, fraud, and brand damage.
