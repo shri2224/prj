@@ -1,0 +1,12 @@
+ID,Title,Host_IP,Host_Name,Event_Time
+"=HYPERLINK(""https://app.squadcast.com/incident/691daade94ce860339283554"",""691daade94ce860339283554"")",Unavailable by ICMP ping,10.27.7.53,CHN_Guindy_Access Point_10.27.7.53,17:02:43
+"=HYPERLINK(""https://app.squadcast.com/incident/691daade94ce860339283552"",""691daade94ce860339283552"")",Unavailable by ICMP ping,10.27.7.52,CHN_Guindy_Access Point_10.27.7.52,17:02:42
+"=HYPERLINK(""https://app.squadcast.com/incident/691daad904b6fd9019dde1b4"",""691daad904b6fd9019dde1b4"")",Unavailable by ICMP ping,10.27.3.10,CHN_Guindy_Fortigate_Firewall,17:02:36
+"=HYPERLINK(""https://app.squadcast.com/incident/691daad904b6fd9019dde1b0"",""691daad904b6fd9019dde1b0"")",Unavailable by ICMP ping,10.27.3.10,CHN_Guindy_Fortigate_Firewall,17:02:36
+"=HYPERLINK(""https://app.squadcast.com/incident/691da93f04b6fd9019ddded9"",""691da93f04b6fd9019ddded9"")",Unavailable by ICMP ping,10.27.7.57,CHN_Guindy_Access Point_10.27.7.57,16:55:47
+"=HYPERLINK(""https://app.squadcast.com/incident/691da93a94ce86033928326a"",""691da93a94ce86033928326a"")",Unavailable by ICMP ping,10.27.7.53,CHN_Guindy_Access Point_10.27.7.53,16:55:43
+"=HYPERLINK(""https://app.squadcast.com/incident/691da93904b6fd9019ddded1"",""691da93904b6fd9019ddded1"")",Unavailable by ICMP ping,10.27.7.52,CHN_Guindy_Access Point_10.27.7.52,16:55:42
+"=HYPERLINK(""https://app.squadcast.com/incident/691da90804b6fd9019ddddf9"",""691da90804b6fd9019ddddf9"")",Unavailable by ICMP ping,121.244.182.140,GDY_TCL_ISP,16:54:52
+"=HYPERLINK(""https://app.squadcast.com/incident/691da90694ce860339283187"",""691da90694ce860339283187"")",Unavailable by ICMP ping,10.27.7.60,CHN_Guindy_Access Point_10.27.7.60,16:54:50
+"=HYPERLINK(""https://app.squadcast.com/incident/691da90504b6fd9019ddddf7"",""691da90504b6fd9019ddddf7"")",Unavailable by ICMP ping,10.27.7.59,CHN_Guindy_Access Point_10.27.7.59,16:54:49
+"=HYPERLINK(""https://app.squadcast.com/incident/691d7c7204b6fd9019dd6d92"",""691d7c7204b6fd9019dd6d92"")",Unavailable by ICMP ping,10.27.3.10,CHN_Guindy_Fortigate_Firewall,13:44:36
